@@ -18,7 +18,9 @@ a {
 ul li {
     list-style: none;
 }
-
+ul{
+    padding: 0px;
+}
 /* Nav start */
 .nav-logo {
     width: 115px;
@@ -378,3 +380,39 @@ ul li {
     color: #5D5D5D;
 }
 /* News end*/
+/* Footer start */
+.footer-area{
+    background: rgba(89, 86, 232, 0.1);
+    padding: 100px 0px;
+}
+.footer-logo-site p{
+    padding: 15px 0px;
+}
+.footer-logo-site ul{  
+    padding: 0px;
+
+}
+.footer-logo-site ul li{
+    width: 42px;
+    height: 42px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    background-color:#FFF;
+    text-align: center;
+    line-height: 42px;
+    margin-right: 15px;
+}
+
+.company-item h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #181818;
+    padding-bottom: 15px;
+}
+.company-item ul li{
+   line-height: 35px;
+}
+/* Footer end */
