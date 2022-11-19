@@ -282,3 +282,14 @@ ul li {
     color: #FFF;
 }
 /* Team end */
+/* client start */
+.client-title{
+    width: 600px;
+}
+.client-title h4{
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color:#181818;
+}
+/* client end */
