@@ -283,13 +283,46 @@ ul li {
 }
 /* Team end */
 /* client start */
+.client-area{
+    padding-bottom: 100px;
+}
 .client-title{
     width: 600px;
+    padding-bottom: 50px;
+}
+.client-item{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 48px;
+
 }
 .client-title h4{
     padding-bottom: 20px;
     font-size: 40px;
     font-weight: 700;
     color:#181818;
+}
+.client-item ul li a i {
+    color: orange;
+    padding-right: 7px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.client-item ul {
+    padding: 0;
+}
+.client-item p {
+    color: #181818B2;
+}
+.client-quote i{
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(89, 86, 232, 0.1);;
+}
+.client-name h5{
+    color: #181818;
+    font-weight: 600;
+    font-size: 20px;
+
 }
 /* client end */
