@@ -1,0 +1,150 @@
+
+/* extra Small devices (phones, 576px and up) */
+@media(max-width:576px){
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0px;
+    }
+    .banner-text {
+        padding-top:0px;
+    }
+    .banner-text h1 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .banner-area {
+        padding: 50px 0px;
+    }
+    .portfolio-menu {
+        width: 100%;
+    }
+    .portfolio-menu ul {
+        padding-right:0px;
+    }
+    .portfolio-menu ul li a {
+    font-size: 16px;
+
+    }
+    .services-title {
+        width: 380px;
+    }
+    .portfolio-title {
+        width: 380px;
+    }
+    .team-title {
+        width: 380px;
+    }
+    .team-title h4{
+        font-size: 25px;
+        padding-bottom: 0;
+        font-weight: 600;
+    }
+    .client-title {
+        width: 380px;
+
+    }
+    .client-title h4 {
+        padding-bottom: 0px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .news-title {
+        width: 380px;
+    }
+    .banner-img{
+        text-align: center;
+    }
+    .banner-img img{
+       width: 50%;
+    }
+    .services-area {
+        padding: 50px 0px;
+    }
+    .services-area h3{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .portfolio-title h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .footer-logo-site{
+        text-align: center;
+    }
+    .company-item{
+        text-align: center;
+    }
+    .footer-logo-site ul {
+       justify-content: center;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0px;
+    }
+    .banner-text {
+        padding-top: 0px;
+    }
+    .banner-text h1 {
+        font-size: 30px;
+    }
+    .services-area {
+        padding: 75px 0px;
+    }
+    .services-title{
+        padding-bottom: 20px;
+    }
+    .portfolio-menu {
+        width: 100%;
+    }
+    .banner-img img{
+        width: 50%;
+     }
+     .footer-logo-site{
+        text-align: center;
+    }
+    .company-item{
+        text-align: center;
+    }
+    .footer-logo-site ul {
+       justify-content: center;
+    }
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0px;
+    }
+    .banner-text {
+        padding-top:0px;
+    }
+    .banner-text h1 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .banner-area {
+        padding: 75px 0px;
+    }
+}
+
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .banner-text {
+        padding-top: 0px;
+        
+    }
+    .banner-text h1{
+        font-size: 40px;
+
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+
+}
