@@ -24,14 +24,28 @@
     font-size: 16px;
 
     }
+    .portfolio-menu ul {
+        flex-direction: column;
+    }
     .services-title {
-        width: 380px;
+        width: 300px;
     }
     .portfolio-title {
-        width: 380px;
+        width: 300px;
     }
+
+    .portfolio-menu ul {
+        align-items: center;
+        background: rgba(89, 86, 232, 0.05);
+        border-radius: 10px;
+        padding-right: 30px;
+    }
+    .portfolio-menu ul li a {
+        padding: 10px 0px;
+    }
+    
     .team-title {
-        width: 380px;
+        width: 300px;
     }
     .team-title h4{
         font-size: 25px;
@@ -39,7 +53,7 @@
         font-weight: 600;
     }
     .client-title {
-        width: 380px;
+        width: 300px;
 
     }
     .client-title h4 {
@@ -48,7 +62,7 @@
         font-weight: 600;
     }
     .news-title {
-        width: 380px;
+        width: 300px;
     }
     .banner-img{
         text-align: center;
@@ -66,6 +80,9 @@
     .portfolio-title h3 {
         font-size: 25px;
         font-weight: 600;
+    }
+    .portfolio-menu ul li a {
+        padding: 0px 0px;
     }
     .footer-logo-site{
         text-align: center;
@@ -99,6 +116,16 @@
     .portfolio-menu {
         width: 100%;
     }
+    .portfolio-menu {
+        height: auto;
+    }
+    .portfolio-menu ul {
+        flex-direction: column;
+        padding-bottom: 2px;
+    }
+    .portfolio-menu ul li a {
+        padding: 10px 0px;
+    }
     .banner-img img{
         width: 50%;
      }
@@ -128,6 +155,9 @@
     }
     .banner-area {
         padding: 75px 0px;
+    }
+    .portfolio-menu {
+        width: 100%;
     }
 }
 
