@@ -4,6 +4,9 @@
     .navbar-light .navbar-nav .nav-link {
         padding: 0px;
     }
+    .nav-contact-btn button {
+        display: none;
+    }
     .banner-text {
         padding-top:0px;
     }
